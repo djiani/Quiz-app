@@ -6,6 +6,17 @@ let quiz = {
       answers: ["New York", "Texas", "Alaska", "Rhode Island"],
       correct: 2
     }
+    {
+      text: "What is the most populated state in the US?",
+      answers: ["New York", "Texas", "Florida", "California"],
+      correct: 3
+    }
+
+    {
+      text: "What many territory count the US?",
+      answers: ["16", "13", "15", "20"],
+      correct: 0
+    }
 
   ]
 }
