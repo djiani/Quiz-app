@@ -17,6 +17,26 @@ let quiz = {
       answers: ["16", "13", "15", "20"],
       correct: 0
     }
+    {
+      text: "Who is gorvenor of Georgia?",
+      answers: ["Natthan Deal", "Natthan Deal", "Natthan Deal", "Natthan Deal"],
+      correct: 0
+    }
+    {
+      text: "Which state what the 4th state to join the US?",
+      answers: ["Alabama", "Georgia", "Natthan Deal", "Natthan Deal"],
+      correct: 0
+    }
+    {
+      text: "Name one state border Georgia?",
+      answers: ["Alabama", "Georgia", "Natthan Deal", "Natthan Deal"],
+      correct: 0
+    }
+    {
+      text: "who is the current vice president of the US?",
+      answers: ["John Bader", "bernie Sanders", "Natthan Deal", "Natthan Deal"],
+      correct: 0
+    }
 
   ]
 }
