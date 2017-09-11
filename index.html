@@ -3,12 +3,45 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>My Quiz Apps</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
   </head>
   
   <body>
-    <h1>Quiz</h1>
-    <div id ="question"> try this one</div>
-    <div id="feedback"></div>
+    <div class="header">
+      <img src="image/can_6.jpg" alt="trophee of African cup of nation">
+      <h1>African Cup of Nation</h1>
+    </div>
+
+    <div class="quizContent">
+      <div class="startQuiz">
+        <input type="button" name="startQuiz" value="Start Quiz">  
+      </div>
+      
+      <div class ="question js-questionHidden">
+        <h3>Which country has won the Africa Cup of Nations the most times?</h3>
+        <div>
+          <div class="imageQuestion">
+            <img src="image/question_mark.jpg" alt="question-mark">
+          </div>
+          <div class="answerForm">
+            <form class="theform">
+              <input type="checkbox" name="answer" value="answer1">answer1<br>
+              <input type="checkbox" name="answer" value="answer2">answer2<br>
+              <input type="checkbox" name="answer" value="answer3">answer3<br>
+              <input type="checkbox" name="answer" value="answer4">answer4<br>
+              <button type="submit" name="answer">Submit</button> 
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="feedback js-feedbackHidden">
+        <span>Question:6/10</span>
+        <span>score:3</span>
+        <button>Quit</button>
+        <button>Hint</button>
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
