@@ -33,8 +33,8 @@ body{
 
 .quizContent{
 	width: 70%;
-	height: 80%;
-	margin-top: 100px;
+	height: 83%;
+	margin-top: 92px;
 	position: absolute;
 	left: 15%;
 	text-align: left;
@@ -53,19 +53,33 @@ body{
 
 .startQuiz{
 	position: absolute;
-	top:200px;
+	top:230px;
 	left: 30%;
-	width: 100%;
+	width: 60%;
+	height: 100px;
+}
+
+.js-results{
+	color: white;
+	position: absolute;
+	top:5px;
+	left: 20%;
+	width: 60%;
+}
+.js-resultsHidden{
+	display: none;
 }
 
 .startQuiz input{
 	height: 60px;
 	width: 40%;
 	background-color: green;
+	border-radius: 15px;
 }
 .js-startQuizHidden{
 	display: none;
 }
+
 
 .js-questionHidden{
 	display: none;
@@ -74,12 +88,16 @@ body{
 	display: none;
 }
 
+.js-descriptionHidden{
+	display: none;
+}
+
 .question{
 	width: 100%;
-	height: 80%;
+	height: 65%;
 	border:1px solid black;
-	background-color: red;
-	padding: 20px;
+	background-color: #666600;
+	padding: 5px;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -95,7 +113,7 @@ body{
 .imageQuestion img{
 	width: 100%;
 	height: auto;
-	max-height: 300px;
+	max-height: 235px;
 }
 
 .answerForm{
@@ -114,37 +132,72 @@ body{
 	width: 90%;
 	height: 40px;
 	border:2px double gray;
+	border-radius: 8px;
 	padding:  5px;
-	margin-top: 10px;
+	margin-top: 5px;
 }
+
 
 .answerForm button{
 	display: block;
 	width: 50%;
 	height: 40px;
 	padding:  5px;
-	margin-top: 10px;
-	margin-right: 20px; /*center this submit button */
+	margin-top: 5px;
+	margin-right: 10px; /*center this submit button */
 
 }
 
+.description{
+	width: 100%;
+	height: 20%;
+	background-color: #ffff66;
+	padding:1px;
+	margin:0 auto;
+	text-align: left;
+}
 
 .feedback{
 	width: 100%;
-	height: 20%;
+	height: 15%;
 	background-color: green;
 	border:1px solid black;
-	padding-top: 30px;
+	padding-top: 10px;
 	text-align: center;
 
 }
 
 .feedback span{
-	padding-right: 40px;
-	padding-left: : 40px;
-	width: 15%;
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 20%;
 	height: 50%;
 	color: white;
 	
 }
+
+.feedback button{
+	float: right;
+	padding-right: 5px;
+	padding-left: : 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 20%;
+	height: 80%;
+
+}
+
+.displayAnswer{
+	text-align: center;
+	font-size: 18;
+}
+
+button{
+	border-radius: 20px;
+}
+
+
 
