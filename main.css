@@ -2,3 +2,202 @@
 	box-sizing: border-box;
 	font-family: sans-serif;
 }
+
+body{
+	background-color: #ffa31a;
+	margin:auto;
+}
+
+.header{
+	width: 80%;
+	height: 16%;
+	position: fixed;
+	left: 10%;
+	top: 0px;
+	background-color: #0024FF;
+	text-align: center;
+}
+
+.header h1{
+	display: inline-block;
+}
+
+.header img{
+	float: left;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px; 
+	height: 100%;
+	margin-bottom: 0px;
+}
+
+
+.quizContent{
+	width: 70%;
+	height: 83%;
+	margin-top: 92px;
+	position: absolute;
+	left: 15%;
+	text-align: left;
+	border: 2px double black;
+	/*background-image: url("image/can_1.jpg");
+	background-size: 100%;
+	background-size: cover;
+	opacity: 0.2;*/
+	
+}
+
+.startImage{
+	background-image: url("image/can_1.jpg");
+	background-size: cover;
+}
+
+.startQuiz{
+	position: absolute;
+	top:230px;
+	left: 30%;
+	width: 60%;
+	height: 100px;
+}
+
+.js-results{
+	color: white;
+	position: absolute;
+	top:5px;
+	left: 20%;
+	width: 60%;
+}
+.js-resultsHidden{
+	display: none;
+}
+
+.startQuiz input{
+	height: 60px;
+	width: 40%;
+	background-color: green;
+	border-radius: 15px;
+}
+.js-startQuizHidden{
+	display: none;
+}
+
+
+.js-questionHidden{
+	display: none;
+}
+.js-feedbackHidden{
+	display: none;
+}
+
+.js-descriptionHidden{
+	display: none;
+}
+
+.question{
+	width: 100%;
+	height: 65%;
+	border:1px solid black;
+	background-color: #666600;
+	padding: 5px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.imageQuestion{
+	display: inline-block;
+	width:40%;
+	height: 80%;
+	float: left;
+	border:2px solid white;
+
+}
+.imageQuestion img{
+	width: 100%;
+	height: auto;
+	max-height: 235px;
+}
+
+.answerForm{
+	display: inline-block;
+	width:60%;
+	height: 80%;
+	float: right;
+	margin:0 auto;
+	text-align: left;
+	padding: 10px;
+	border:2px solid white;
+	
+}
+.answerForm span{
+	display: block;
+	width: 90%;
+	height: 40px;
+	border:2px double gray;
+	border-radius: 8px;
+	padding:  5px;
+	margin-top: 5px;
+}
+
+
+.answerForm button{
+	display: block;
+	width: 50%;
+	height: 40px;
+	padding:  5px;
+	margin-top: 5px;
+	margin-right: 10px; /*center this submit button */
+
+}
+
+.description{
+	width: 100%;
+	height: 20%;
+	background-color: #ffff66;
+	padding:1px;
+	margin:0 auto;
+	text-align: left;
+}
+
+.feedback{
+	width: 100%;
+	height: 15%;
+	background-color: green;
+	border:1px solid black;
+	padding-top: 10px;
+	text-align: center;
+
+}
+
+.feedback span{
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 20%;
+	height: 50%;
+	color: white;
+	
+}
+
+.feedback button{
+	float: right;
+	padding-right: 5px;
+	padding-left: : 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 20%;
+	height: 80%;
+
+}
+
+.displayAnswer{
+	text-align: center;
+	font-size: 18;
+}
+
+button{
+	border-radius: 20px;
+}
+
+
+
