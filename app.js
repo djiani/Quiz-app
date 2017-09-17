@@ -102,8 +102,10 @@ function displayQuestion() {
       html += `<span class="correctAnswer"><input type="radio" name="answer" value=${i}> 
           ${quiz.questions[currentQuestion].answers[i]}<br></span>`
     }else{
-      html += `<span><input type="radio" name="answer" value=${i} > 
-          ${quiz.questions[currentQuestion].answers[i]}<br></span>`
+      html += `<span>
+          <input type="radio" name="answer" value=${i}  id="answer_${i}"> 
+          <label for="answer_${i}">${quiz.questions[currentQuestion].answers[i]}<br></label>
+          </span>`
     }
     
   }
